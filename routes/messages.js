@@ -8,6 +8,8 @@ router.get('/threads', MessagesController.allThreads);
 
 router.get('/weekly/:group_name', MessagesController.weeklyAverage);
 
+router.get('/monthly/:group_name', MessagesController.monthlyAverage);
+
 
 
 module.exports = router;
