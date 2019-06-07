@@ -49,6 +49,8 @@ exports.averageMessageLength = async (req, res, next) => {
 
     const dbRes = await pool.query(query, values);
     res.send(dbRes.rows);
-}
+};
+
+
 
 
